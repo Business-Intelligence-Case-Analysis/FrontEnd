@@ -1,0 +1,28 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "relations": [
+      {
+        "id": "2730",
+        "semantic_type": "测试1",
+        "direction": 0,
+        "relation_node": {
+          "id": "2c29f5249cf211ebbc710242c0a8c409",
+          "name": "外伤史",
+          "semantic_type": "Symptom"
+        }
+      },
+      {
+        "id": "2731",
+        "semantic_type": "测试2",
+        "direction": 0,
+        "relation_node": {
+          "id": "2c29f5249cf211ebbc710242c0a8c410",
+          "name": "简单测试",
+          "semantic_type": "Symptom1"
+        }
+      }
+    ]
+  }
+}

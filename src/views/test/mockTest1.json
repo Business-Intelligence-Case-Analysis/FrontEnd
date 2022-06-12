@@ -1,0 +1,59 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "nodes": [{
+      "id": "1",
+      "name": "同济大学",
+      "semantic_type": "学校"
+      },
+      {
+        "id": "2",
+        "name": "图书馆",
+        "semantic_type": "场地"
+      },
+      {
+        "id": "3",
+        "name": "宿舍",
+        "semantic_type": "场地"
+      },
+      {
+        "id": "4",
+        "name": "wyh",
+        "semantic_type": "学生"
+      }
+    ],
+    "relations": [
+      {
+        "id": "2730",
+        "semantic_type": "拥有",
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "id": "2731",
+        "semantic_type": "拥有",
+        "source": "1",
+        "target": "3"
+      },
+      {
+        "id": "2372",
+        "semantic_type": "住宿",
+        "source": "4",
+        "target": "3"
+      },
+      {
+        "id": "2373",
+        "semantic_type": "学习",
+        "source": "4",
+        "target": "2"
+      },
+      {
+        "id": "2374",
+        "semantic_type": "属于",
+        "source": "4",
+        "target": "1"
+      }
+    ]
+  }
+}
