@@ -14,7 +14,7 @@
       </div>
     </div>
     <div>
-      <div style="font-weight: bolder;">作者查询</div>
+      <div v-if="tableData.length" style="font-weight: bolder;">作者查询</div>
       <el-table v-if="tableData.length" :data="tableData" style="width: 80%;margin-left: 200px;margin-top: 50px" stripe>
         <el-table-column prop="name" label="姓名" width="180"></el-table-column>
         <el-table-column prop="cn" label="引用文章次数" width="180"></el-table-column>
